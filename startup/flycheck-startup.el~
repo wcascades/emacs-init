@@ -1,0 +1,9 @@
+;;; flycheck-startup.el --- Init for python
+
+;;; Code:
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode))
+
+(provide 'flycheck-startup)
+;;; python-startup.el ends here
