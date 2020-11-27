@@ -8,10 +8,8 @@
 (show-paren-mode 1)
 (desktop-save-mode 1)
 (global-linum-mode t)
-(smartparens-global-mode 1)
-(add-to-list 'default-frame-alist
-	                  '(font . "Hack-12"))
-(set-face-attribute 'default t :font "Hack-12")
+;(smartparens-global-mode 1)
+
 ;;Loading dracula, then subsequently disableing
 ;;it fixes the issues of it inadvertly
 ;;hanging around

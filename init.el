@@ -9,6 +9,10 @@
  '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
 (add-to-list 'load-path "~/.emacs.d/startup/")
 (load "which-key-startup")
 (load "evil-startup")
